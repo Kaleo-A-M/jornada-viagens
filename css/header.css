@@ -15,6 +15,11 @@ header {
     height: 64px;
 }
 
+/* Seletor de Irmandade */
+input[type="checkbox"]:checked~nav {
+    display: block;
+}
+
 nav {
     display: none;
 }
