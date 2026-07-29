@@ -29,13 +29,29 @@ input[type="checkbox"]:checked~nav {
 nav {
     display: none;
 }
-.list-links{
+
+.list-links {
     list-style: none;
 }
-.list-links li{
+
+.list-links li {
     margin: 16px;
 }
+
 .list-links a {
     color: var(--text-secondary-color);
     text-decoration: none;
+}
+
+/* Responsivo tablet */
+@media screen and (min-width:768px) {
+    .navigation-menu{
+        margin: 0;
+    }
+    .navigation-menu label{
+        display: none;
+    }
+    .navigation-menu nav {
+        display: block;
+    }
 }
