@@ -76,6 +76,10 @@ nav {
         width: 467px;
         font-size: 24px;
     }
+
+    .navigation-menu a:hover {
+        color: var(--primary-color);
+    }
 }
 
 /* Responsivo desktop */
