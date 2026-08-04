@@ -45,13 +45,27 @@ nav {
 
 /* Responsivo tablet */
 @media screen and (min-width:768px) {
-    .navigation-menu{
+    .navigation-menu {
         margin: 0;
     }
-    .navigation-menu label{
+
+    .navigation-menu label {
         display: none;
     }
+
     .navigation-menu nav {
         display: block;
+    }
+
+    .navigation-menu li {
+        margin: 0;
+    }
+
+    .list-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 467px;
+        font-size: 24px;
     }
 }
