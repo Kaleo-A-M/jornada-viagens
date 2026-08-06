@@ -3,12 +3,14 @@
     background: black;
     width: 312px;
     height: 288px;
+    box-sizing: border-box;
     border-radius: 16px;
     padding: 24px 16px;
     text-align: center;
-    /*   display: flex;
-    justify-content: space-around;
-    flex-direction: column; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 
 .card header {
@@ -34,4 +36,20 @@
     font-size: 32px;
     margin-top: 24px;
     display: inline-block;
+}
+
+@media screen and (min-width:1024px) {
+    .card {
+        width: 588px;
+        height: 308px;
+    }
+
+    .card header h3 {
+        font-size: 48px;
+
+    }
+
+    .card header span {
+        font-size: 40px;
+    }
 }
