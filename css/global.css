@@ -27,6 +27,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+}
+
+body {
     color: var(--text-primary-color);
 }
 
@@ -43,6 +46,17 @@
     background-color: var(--secondary-color);
     border: none;
     margin: 16px auto 32px;
+}
+
+.button {
+    width: 280px;
+    height: 64px;
+    color: var(--text-secondary-color);
+    font-size: 20px;
+    font-weight: var(--title-weight);
+    text-decoration: none;
+    background-color: var(--secondary-color);
+
 }
 
 @media screen and(min-width:768px) {
