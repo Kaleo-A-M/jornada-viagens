@@ -1,0 +1,45 @@
+.bpc-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-bpc {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secondary-color);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-bpc h3 {
+    font-size: 28px;
+}
+
+@media screen and (min-width:768px) {
+    .bpc-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .card-bpc {
+        width: 230px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card-bpc {
+        width: 281px;
+    }
+}
