@@ -1,9 +1,12 @@
+section.offers {
+    margin-bottom: 88px;
+}
+
 .offers-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin-bottom: 88px;
 }
 
 .card {
@@ -76,7 +79,7 @@
 }
 
 @media screen and (min-width:1024px) {
-    .offers-cards {
+    section.offers {
         margin-bottom: 104px;
     }
 

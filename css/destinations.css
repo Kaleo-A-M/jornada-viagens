@@ -1,3 +1,7 @@
+section.destinations {
+    margin-bottom: 88px;
+}
+
 .destinations .section-title {
     width: 312px;
     margin: auto;
@@ -73,6 +77,10 @@ article.item {
 }
 
 @media screen and (min-width:1024px) {
+    section.destinations {
+        margin-bottom: 104px;
+    }
+
     .destination-items {
         display: flex;
         flex-direction: row;
