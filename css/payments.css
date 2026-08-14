@@ -11,6 +11,33 @@
     text-align: start;
 }
 
+.payments .img-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+}
+
+.payments .img-gallery .image.bag {
+    background: url(../img/bag-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.passport {
+    background: url(../img/passaporte-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.people {
+    background: url(../img/ponte-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
 @media screen and (min-width:768px) {
     .payments-items {
         width: 648px;
@@ -19,6 +46,25 @@
     .section-title {
         width: 100%;
     }
+
+    .payments .img-gallery {
+        height: 648px;
+    }
+
+    .payments .img-gallery .image.bag {
+        background: url(../img/bag-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .img-gallery .image.passport {
+        background: url(../img/passaporte-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .img-gallery .image.people {
+        background: url(../img/ponte-desktop.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -26,10 +72,24 @@
         width: 900px;
         flex-direction: row;
     }
+
+    .payments .text-content {
+        width: 360px;
+    }
+
+    .payments .img-gallery {
+        width: 790px;
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width:1440px) {
     .payments-items {
         width: 1200px;
     }
+}
+
+.payments .payments-items {
+    display: flex;
+    justify-content: space-between;
 }
