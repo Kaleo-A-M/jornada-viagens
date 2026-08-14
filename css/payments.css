@@ -3,8 +3,33 @@
     margin: 0 auto;
 }
 
+.payments-items {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 312px;
+    text-align: start;
+}
+
 @media screen and (min-width:768px) {
+    .payments-items {
+        width: 648px;
+    }
+
     .section-title {
         width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .payments-items {
+        width: 900px;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .payments-items {
+        width: 1200px;
     }
 }
