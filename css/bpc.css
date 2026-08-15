@@ -45,6 +45,8 @@
     }
 
     .bpc-cards {
+        margin: auto;
+        width: 648px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

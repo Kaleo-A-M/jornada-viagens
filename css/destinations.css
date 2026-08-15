@@ -99,6 +99,9 @@ article.item {
 }
 
 @media screen and (min-width:1440px) {
+    .destination-items{
+        width: 1200px;
+    }
 
     article.item,
     .img-item.tokyo,
