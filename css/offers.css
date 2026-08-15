@@ -75,10 +75,16 @@ section.offers {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        width: 648px;
+        margin: auto;
     }
 }
 
 @media screen and (min-width:1024px) {
+    .offers-cards {
+        width: 900px;
+    }
+
     section.offers {
         margin-bottom: 104px;
     }
@@ -99,14 +105,12 @@ section.offers {
 }
 
 @media screen and (min-width:1440px) {
+    .offers-cards {
+        width: 1200px;
+        margin: auto;
+    }
+
     .card {
         width: 588px;
-    }
-}
-
-@media screen and (min-width:1920px) {
-    .offers-cards {
-        width: 1250px;
-        margin: auto;
     }
 }
