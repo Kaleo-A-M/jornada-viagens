@@ -47,14 +47,17 @@ body {
     border: none;
     margin: 16px auto 32px;
 }
-.content-title{
+
+.content-title {
     font-size: 28px;
     font-weight: var(--title-weight);
 }
-.content-text{
+
+.content-text {
     font-size: 20px;
     font-weight: var(--text-weight);
 }
+
 .button {
     display: inline-block;
     width: 280px;
@@ -76,8 +79,6 @@ body {
 }
 
 @media screen and (min-width:1024px) {
-
-
     .button:hover {
         background-color: var(--primary-color);
     }

@@ -53,13 +53,30 @@
 }
 
 @media screen and (min-width:1024px) {
+    .bpc-cards {
+        width: 900px;
+        margin: auto;
+    }
+
     .card-bpc {
-        width: 230px;
+        width: 207px;
+    }
+
+    .card-bpc h3 {
+        font-size: 25px;
     }
 }
 
 @media screen and (min-width:1440px) {
+    .bpc-cards {
+        width: 1200px;
+    }
+
     .card-bpc {
         width: 281px;
+    }
+
+    .card-bpc h3 {
+        font-size: 28px;
     }
 }
