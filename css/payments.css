@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.payments {
+    margin-bottom: 88px;
+}
+
 .payments-items {
     display: flex;
     flex-direction: column;
@@ -68,6 +72,10 @@
 }
 
 @media screen and (min-width:1024px) {
+    .payments {
+        margin-bottom: 88px;
+    }
+
     .payments-items {
         width: 900px;
         flex-direction: row;
