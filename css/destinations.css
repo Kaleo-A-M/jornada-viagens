@@ -61,12 +61,14 @@ article.item {
         width: 648px;
         height: 452px;
         background: url(../img/Tokyo-tablet.jpg) no-repeat;
+        background-position: center;
     }
 
     .img-item.osaka {
         width: 648px;
         height: 452px;
         background: url(../img/Osaka-tablet.jpg) no-repeat;
+        background-position: center;
     }
 
     .destinations .section-title {
@@ -99,7 +101,7 @@ article.item {
 }
 
 @media screen and (min-width:1440px) {
-    .destination-items{
+    .destination-items {
         width: 1200px;
     }
 
