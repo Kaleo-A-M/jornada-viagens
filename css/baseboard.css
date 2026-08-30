@@ -1,0 +1,23 @@
+.baseboard-img {
+    width: 100%;
+    height: 600px;
+    background: url(../img/img-footer-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .baseboard-img {
+        height: 400px;
+        background: url(../img/img-footer-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .baseboard-img {
+        background: url(../img/img-footer-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}
