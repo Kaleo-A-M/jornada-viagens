@@ -1,6 +1,7 @@
-.testimonials{
+.testimonials {
     margin-bottom: 88px;
 }
+
 .testimonials-items {
     margin: auto;
     width: 312px;
@@ -33,7 +34,7 @@
 }
 
 
-.container-comment h4 {
+.container-comment h3 {
     text-align: start;
     line-height: 43px;
     font-size: 20px;
@@ -65,7 +66,7 @@
         height: 100%;
     }
 
-    .container-comment h4 {
+    .container-comment h3 {
         font-size: 19px;
     }
 
@@ -86,7 +87,7 @@
         height: 206px;
     }
 
-    .container-comment h4 {
+    .container-comment h3 {
         font-size: 20px;
     }
 
