@@ -6,10 +6,25 @@
     background-position: center;
 }
 
+/* travel packages */
+.baseboard-img.travel {
+    width: 100%;
+    height: 600px;
+    background: url(../img/Travel-packages/rodape-travel-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (min-width: 768px) {
     .baseboard-img {
         height: 400px;
         background: url(../img/img-footer-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .baseboard-img.travel {
+        height: 400px;
+        background: url(../img/Travel-packages/rodape-travel-tablet.png) no-repeat;
         background-size: cover;
     }
 }
@@ -18,6 +33,13 @@
     .baseboard-img {
         background: url(../img/img-footer-desktop.jpg) no-repeat;
         background-size: cover;
+        height: 600px;
+    }
+
+    .baseboard-img.travel {
+        background: url(../img/Travel-packages/rodape-travel-descktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
         height: 600px;
     }
 }

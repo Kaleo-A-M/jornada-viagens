@@ -14,6 +14,39 @@
     line-height: 1.5;
 }
 
+/* Pacotes de Viagens */
+.travel-packages .hero-img {
+    height: 460px;
+    width: 100%;
+    background: url(../img/Travel-packages/hero-japao-mobile.png) no-repeat;
+    background-size: cover;
+    padding: 65px 24px;
+    margin-bottom: 88px;
+}
+
+.travel-packages .hero-content {
+    color: var(--text-secondary-color);
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: var(--title-weight);
+
+}
+
+.hero-content p {
+    font-size: 20px;
+    font-weight: var(--text-weight);
+}
+
+.hero-content hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+}
+
 /* responsividade tablet */
 @media screen and (min-width: 768px) {
 
@@ -28,6 +61,17 @@
         padding: 0;
         margin: 104px auto;
         width: 648px;
+    }
+
+    .travel-packages .hero-img {
+        height: 620px;
+        background: url(../img/Travel-packages/herp-japao-tablet.png);
+        box-sizing: border-box;
+        padding: 210px 69px 108px 120px;
+    }
+
+    .hero-content p {
+        font-size: 32px;
     }
 }
 
@@ -44,10 +88,23 @@
     .hero h2 {
         width: 900px;
     }
+
+    .travel-packages .hero-img {
+        background: url(../img/Travel-packages/hero-japao-desktop.png)no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 148px 365px 148px 62px;
+        margin-bottom: 104px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .hero h2 {
         width: 1200px;
     }
+
+    .travel-packages .hero-img {
+        padding: 158px 741px 158px 120px;
+    }
+
 }

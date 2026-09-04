@@ -50,6 +50,9 @@ nav {
     color: var(--text-secondary-color);
     text-decoration: none;
 }
+a.active{
+    text-decoration: underline;
+}
 
 /* Responsivo tablet */
 @media screen and (min-width:768px) {

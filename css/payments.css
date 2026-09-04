@@ -42,6 +42,37 @@
     grid-column: span 2;
 }
 
+/* pacotes viagens */
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payments-items span {
+    font-size: 40px;
+}
+
+.payments .img-gallery .image.roof {
+    background: url(../img/Travel-packages/grid-japao-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.market {
+    background: url(../img/Travel-packages/grid-japao-mobile2.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.monge {
+    background: url(../img/Travel-packages/grid-japao-mobile3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .img-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
 @media screen and (min-width:768px) {
     .payments-items {
         width: 648px;
@@ -69,6 +100,22 @@
         background: url(../img/ponte-desktop.png) no-repeat;
         background-size: cover;
     }
+
+    .payments .img-gallery .image.roof {
+        background: url(../img/Travel-packages/grid-japao-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .img-gallery .image.market {
+        background: url(../img/Travel-packages/grid-japao-desktop2.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .img-gallery .image.monge {
+        background: url(../img/Travel-packages/grid-japao-desktop3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -95,9 +142,10 @@
     .payments-items {
         width: 1200px;
     }
-}
 
-.payments .payments-items {
-    display: flex;
-    justify-content: space-between;
+
+    .payments .payments-items {
+        display: flex;
+        justify-content: space-between;
+    }
 }
