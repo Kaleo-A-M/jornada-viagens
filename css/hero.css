@@ -148,7 +148,7 @@
     }
 
     .blog .hero-content {
-        padding: 209px 400px 107px 120px;
+        padding: 209px 400px 107px 60px;
     }
 
 }
@@ -157,9 +157,13 @@
     .hero h2 {
         width: 1200px;
     }
+    .travel-packages .hero-content{
+        width: 1200px;
+        margin: 0 680px;
+    }
 
     .travel-packages .hero-img {
-        padding: 158px 741px 158px 120px;
+        padding: 158px 0 158px 0;
     }
 
     /* Blog */
@@ -170,6 +174,6 @@
 
 @media screen and (min-width: 1920px) {
     .blog .hero-content {
-        padding: 209px 1600px 107px 320px;
+        padding: 209px 1390px 107px 585px;
     }
 }
