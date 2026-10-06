@@ -173,7 +173,7 @@ article.item {
 
     .destinations-blog article.item,
     .img-item.kyoto,
-    .img-item.osaka,
+    .img-item.osaka.blog,
     .img-item.hiroshima {
         width: 384px;
     }
