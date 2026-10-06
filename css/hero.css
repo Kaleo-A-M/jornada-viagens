@@ -10,7 +10,7 @@
     width: 312px;
     text-align: center;
     font-weight: var(--text-weigh);
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -157,23 +157,28 @@
     .hero h2 {
         width: 1200px;
     }
-    .travel-packages .hero-content{
+
+    .travel-packages .hero-content {
         width: 1200px;
-        margin: 0 680px;
+        margin: auto;
     }
 
     .travel-packages .hero-img {
-        padding: 158px 0 158px 0;
+        padding: 209px 0;
     }
 
     /* Blog */
     .blog .hero-content {
-        padding: 209px 741px 107px 120px;
+        margin: auto;
+        width: 1200px;
+        padding: 209px 0;
     }
 }
 
 @media screen and (min-width: 1920px) {
     .blog .hero-content {
-        padding: 209px 1390px 107px 585px;
+        margin: auto;
+        width: 1600px;
+        padding: 209px 0;
     }
 }
