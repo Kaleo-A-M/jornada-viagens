@@ -140,6 +140,8 @@ jornada-viagens/
 ├── css/
 ├── fonts/
 ├── img/
+├── blog.html
+├── contato.html
 ├── favicon-branco.svg
 ├── favicon-bussola.png
 ├── index.html
