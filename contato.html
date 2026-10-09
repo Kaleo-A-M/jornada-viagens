@@ -32,11 +32,102 @@
                     <li><a href="pacotes-de-viagens.html" target="_parent" title="Acessar pacotes de viagem">Pacotes de
                             viagem</a>
                     </li>
-                    <li><a href="contato.html" target="_parent" title="Acessar contato">Contato</a></li>
+                    <li><a href="contato.html" target="_parent" title="Acessar contato" class="active">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <main>
+        <!-- section hero -->
+        <section class="contact hero">
+            <div class="hero-img">
+                <div class="hero-content">
+                    <h1>Entre em contato!</h1>
+                    <hr>
+                    <p>Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!</p>
+                </div>
+            </div>
+        </section>
+        <!-- section offers -->
+        <section class="offers">
+            <div class="section-title">
+                <h2>Preencha o formulário:</h2>
+                <hr>
+            </div>
+        </section>
+        <section class="hero">
+            <h2>
+                <h2>Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e
+                    orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha
+                    seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</h2>
+            </h2>
+        </section>
+        <section class="formulario">
+            <form action="#" method="get">
+                <input id="name" type="text" name="userName" placeholder="Nome" required>
+                <br>
+                <input id="email" type="email" name="userEmail" placeholder="Email" required>
+
+                <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" inputmode="numeric"
+                    placeholder="Telefone" aria-describedby="phoneHelp">
+                <br>
+                <label for="comment">Assunto</label>
+                <textarea name="userComment" id="comment" rows="4" cols="40"></textarea>
+                <button type="submit">
+                    <a href="#" class="enviar button">Enviar!</a>
+                </button>
+            </form>
+        </section>
+    </main>
+    <!-- section Footer -->
+    <section class="baseboard">
+        <div class="baseboard-img contact
+"></div>
+    </section>
+    <!-- footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <img src="img/Logo-branco-footer.png" alt="Logo da empresa Jornada Viagens na cor branca"
+                class="img-footer">
+
+            <p class="footer-text">
+                <span class="icon" aria-hidden="true">🕒</span>
+                Horário de atendimento: 08h - 20h (Segunda a Sábado)
+            </p>
+
+            <p class="footer-text">
+                <span class="icon" aria-hidden="true">✈️</span>
+                Desenvolvido por Alura. Projeto fictício sem fins comerciais.
+            </p>
+        </div>
+
+        <nav class="footer-social" aria-label="Redes sociais da Jornada Viagens">
+            <p class="footer-text" id="redes-sociais-titulo">
+                Acesse nossas redes:
+            </p>
+
+            <ul class="footer-social-list" aria-labelledby="redes-sociais-titulo">
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="Acesse o WhatsApp do Jornada Viagens"
+                        aria-label="Acesse o WhatsApp do Jornada Viagens (abre em nova aba)">
+                        <img src="img/logo-Whatsapp.png" alt="Ícone do WhatsApp" class="logo-redes">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="Acesse o Instagram do Jornada Viagens"
+                        aria-label="Acesse o Instagram do Jornada Viagens (abre em nova aba)">
+                        <img src="img/logo-Instragam.png" alt="Ícone do Instagram" class="logo-redes">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="Acesse o Twitter do Jornada Viagens"
+                        aria-label="Acesse o Twitter do Jornada Viagens (abre em nova aba)">
+                        <img src="img/logo-Twiter.png" alt="Ícone do Twitter" class="logo-redes">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
 </body>
 
