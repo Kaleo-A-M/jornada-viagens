@@ -24,6 +24,7 @@
     margin-bottom: 88px;
 }
 
+.contact,
 .blog,
 .travel-packages .hero-content {
     color: var(--text-secondary-color);
@@ -69,6 +70,28 @@
     font-size: 24px;
 }
 
+/* contato */
+.contact .hero-img {
+    height: 460px;
+    width: 100%;
+    background: url(../img/blog/../contato/hero-contato-mobile.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+}
+
+.contact .hero-content {
+    padding: 81px 24px;
+}
+
+.contact .hero-content h1 {
+    font-size: 55px;
+}
+
+.contact .hero-content p {
+    font-size: 24px;
+}
+
+
 /* responsividade tablet */
 @media screen and (min-width: 768px) {
 
@@ -88,7 +111,7 @@
     /* travel packages*/
     .travel-packages .hero-img {
         height: 620px;
-        background: url(../img/Travel-packages/herp-japao-tablet.png);
+        background: url(../img/Travel-packages/hero-japao-tablet.png);
         box-sizing: border-box;
         padding: 210px 69px 108px 120px;
     }
@@ -112,6 +135,24 @@
     }
 
     .blog .hero-content p {
+        font-size: 32px;
+    }
+
+    /* Contato */
+    .contact .hero-img {
+        height: 620px;
+        background: url(../img/contato/hero-contato-tablet.png) no-repeat;
+    }
+
+    .contact .hero-content {
+        padding: 159px 94px;
+    }
+
+    .contact .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .contact .hero-content p {
         font-size: 32px;
     }
 
@@ -151,6 +192,18 @@
         padding: 209px 400px 107px 60px;
     }
 
+    /* contato */
+    .contact .hero-img {
+        width: 100%;
+        background: url(../img/contato/hero-contato-desktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact .hero-content {
+        padding: 209px 400px 107px 60px;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -169,6 +222,13 @@
 
     /* Blog */
     .blog .hero-content {
+        margin: auto;
+        width: 1200px;
+        padding: 209px 0;
+    }
+
+    /* contato */
+    .contact .hero-content {
         margin: auto;
         width: 1200px;
         padding: 209px 0;
