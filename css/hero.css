@@ -10,7 +10,7 @@
     width: 312px;
     text-align: center;
     font-weight: var(--text-weigh);
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -24,6 +24,7 @@
     margin-bottom: 88px;
 }
 
+.blog,
 .travel-packages .hero-content {
     color: var(--text-secondary-color);
 }
@@ -47,6 +48,27 @@
     margin: 16px 0 32px;
 }
 
+/* blog */
+.blog .hero-img {
+    height: 460px;
+    width: 100%;
+    background: url(../img/blog/herp-blog-mobile.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+}
+
+.blog .hero-content {
+    padding: 81px 24px;
+}
+
+.blog .hero-content h1 {
+    font-size: 55px;
+}
+
+.blog .hero-content p {
+    font-size: 24px;
+}
+
 /* responsividade tablet */
 @media screen and (min-width: 768px) {
 
@@ -63,6 +85,7 @@
         width: 648px;
     }
 
+    /* travel packages*/
     .travel-packages .hero-img {
         height: 620px;
         background: url(../img/Travel-packages/herp-japao-tablet.png);
@@ -73,6 +96,25 @@
     .hero-content p {
         font-size: 32px;
     }
+
+    /* blog */
+    .blog .hero-img {
+        height: 620px;
+        background: url(../img/blog/hero-blog-tablet.png) no-repeat;
+    }
+
+    .blog .hero-content {
+        padding: 159px 94px;
+    }
+
+    .blog .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .blog .hero-content p {
+        font-size: 32px;
+    }
+
 }
 
 /* responsividade desktop */
@@ -96,6 +138,19 @@
         padding: 148px 365px 148px 62px;
         margin-bottom: 104px;
     }
+
+    /* blog */
+    .blog .hero-img {
+        width: 100%;
+        background: url(../img/blog/hero-blog-desktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .blog .hero-content {
+        padding: 209px 400px 107px 60px;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -103,8 +158,27 @@
         width: 1200px;
     }
 
-    .travel-packages .hero-img {
-        padding: 158px 741px 158px 120px;
+    .travel-packages .hero-content {
+        width: 1200px;
+        margin: auto;
     }
 
+    .travel-packages .hero-img {
+        padding: 209px 0;
+    }
+
+    /* Blog */
+    .blog .hero-content {
+        margin: auto;
+        width: 1200px;
+        padding: 209px 0;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .blog .hero-content {
+        margin: auto;
+        width: 1600px;
+        padding: 209px 0;
+    }
 }
